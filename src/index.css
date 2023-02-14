@@ -1,0 +1,44 @@
+/* index.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .todo-list {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-item span {
+    flex-grow: 1;
+  }
+  
+  .todo-item button {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .todo-item button:hover {
+    color: red;
+  }
+  
+  
